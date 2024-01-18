@@ -1,6 +1,7 @@
 // console.log("Hello World");
-var camperbot = "Bot";
-var xp = 0;
+let camperbot = "Bot";
+let xp = 0;
 // "You rock!"
-var health = 100;
-var gold = 50;
+let health = 100;
+let gold = 50;
+let currentWeapon = 0;
