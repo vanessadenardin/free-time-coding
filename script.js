@@ -1,3 +1,3 @@
 // console.log("Hello World");
-var camperbot;
-var xp;
+var camperbot = "Bot";
+var xp = 0;
