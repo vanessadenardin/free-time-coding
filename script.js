@@ -30,6 +30,7 @@ function goStore() {
     button1.onclick = buyHealth;
     button2.onclick = buyWeapon;
     button3.onclick = goTown;
+    text.innerText = "You enter the store.";
 }
 
 function goCave() {
@@ -45,3 +46,15 @@ function fightDragon() {
 button1.onclick = goStore;
 button2.onclick = goCave;
 button3.onclick = fightDragon;
+
+function buyHealth() {
+
+}
+
+function buyWeapon() {
+
+}
+
+function goTown() {
+
+}
