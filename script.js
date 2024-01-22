@@ -179,3 +179,10 @@ function fightDragon() {
     goFight()
 }
 
+function attack(){
+
+}
+
+function dodge(){
+
+}
