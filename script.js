@@ -22,24 +22,11 @@ const monsterStats = document.querySelector("#monsterStats");
 const monsterName = document.querySelector("#monsterName");
 const monsterHealthText = document.querySelector("#monsterHealth")
 
-const weapons = [
-    {
-        name: "stick" ,
-        power: 5 ,
-    },
-    {
-        name: "dagger" ,
-        power: 30 ,
-    },
-    {
-        name: "claw hammer" ,
-        power: 50 ,
-    },
-    {
-        name: "sword" ,
-        power: 100 ,
-    },
-];
+// initialize buttons
+// element.EventAttribute = someFuncitionName;
+button1.onclick = goStore;
+button2.onclick = goCave;
+button3.onclick = fightDragon;
 
 const locations = [
     {
@@ -60,6 +47,25 @@ const locations = [
         "button functions": [fightSlime, fightBeast, goTown],
         text: "You enter the cave. You see some monsters."
     }
+];
+
+const weapons = [
+    {
+        name: "stick" ,
+        power: 5 ,
+    },
+    {
+        name: "dagger" ,
+        power: 30 ,
+    },
+    {
+        name: "claw hammer" ,
+        power: 50 ,
+    },
+    {
+        name: "sword" ,
+        power: 100 ,
+    },
 ];
 
 function goTown() {
@@ -92,16 +98,6 @@ function goCave() {
     // console.log("Going to cave.")
     update(locations[2]);
 }
-
-function fightDragon() {
-    console.log("Fighting dragon.");
-}
-
-// initialize buttons
-// element.EventAttribute = someFuncitionName;
-button1.onclick = goStore;
-button2.onclick = goCave;
-button3.onclick = fightDragon;
 
 function buyHealth() {
     if (gold >= 10) {
@@ -153,3 +149,8 @@ function fightSlime() {
 function fightBeast() {
 
 }
+
+function fightDragon() {
+    console.log("Fighting dragon.");
+}
+
