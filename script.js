@@ -251,3 +251,7 @@ function restart(){
 
     goTown();
 }
+
+function winGame() {
+    update(locations[6]);
+}
